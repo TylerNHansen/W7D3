@@ -5,7 +5,7 @@ NewsReader.Views.FeedView = Backbone.View.extend({
   },
 
   events: {
-    "click.refresh" : "refresh"
+    "click #refresh" : "refresh"
   },
 
   refresh: function(){
